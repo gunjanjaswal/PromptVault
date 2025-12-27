@@ -1,0 +1,49 @@
+{
+    "manifest_version": 3,
+    "name": "PromptVault - AI Prompt Library",
+    "short_name": "PromptVault",
+    "version": "1.0.0",
+    "description": "Instant access to 20+ curated AI prompts for ChatGPT, Claude & Gemini. Copy or auto-insert production-ready templates.",
+    "author": "Gunjan Jaswaal",
+    "permissions": [
+        "storage",
+        "activeTab",
+        "contextMenus"
+    ],
+    "host_permissions": [
+        "https://chat.openai.com/*",
+        "https://claude.ai/*",
+        "https://gemini.google.com/*"
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "icons/icon16.png",
+            "48": "icons/icon48.png",
+            "128": "icons/icon128.png"
+        },
+        "default_title": "PromptVault - Quick AI Prompts"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://chat.openai.com/*",
+                "https://claude.ai/*",
+                "https://gemini.google.com/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "run_at": "document_end"
+        }
+    ],
+    "icons": {
+        "16": "icons/icon16.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
+    },
+    "homepage_url": "https://github.com/gunjanjaswal/Awesome-Generative-AI-Prompts"
+}
