@@ -142,7 +142,7 @@ If you find PromptVault helpful, consider supporting the project:
 
 <div align="center">
 
-**Made with ❤️ by [Gunjan Jaswaal](https://www.gunjanjaswal.me)**
+**Made with ❤️ by [Gunjan Jaswal](https://www.gunjanjaswal.me)**
 
 ⭐ Star this repo if you find it useful!
 

@@ -2,9 +2,9 @@
     "manifest_version": 3,
     "name": "PromptVault - AI Prompt Library",
     "short_name": "PromptVault",
-    "version": "1.0.0",
-    "description": "Instant access to 20+ curated AI prompts for ChatGPT, Claude & Gemini. Copy or auto-insert production-ready templates.",
-    "author": "Gunjan Jaswaal",
+    "version": "1.0.1",
+    "description": "Access 20+ curated AI prompts. Copy to clipboard or click prompt card to auto-fill into ChatGPT, Claude & Gemini.",
+    "author": "Gunjan Jaswal",
     "permissions": [
         "storage",
         "activeTab",
